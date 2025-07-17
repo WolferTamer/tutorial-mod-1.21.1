@@ -1,4 +1,10 @@
 {
   "item.tutorialmod.flamingo_feather": "Flamingo Feather",
-  "item.tutorialmod.flamingo_fabric": "Flamingo Fabric"
+  "item.tutorialmod.flamingo_fabric": "Flamingo Fabric",
+  "item.tutorialmod.zircon": "Zircon",
+
+
+  "block.tutorialmod.zircon_ore": "Zircon Ore",
+  "block.tutorialmod.zircon_deepslate_ore":  "Zircon Deepslate Ore",
+  "block.tutorialmod.flamingo_fabric_block": "Flamingo Fabric Block"
 }

@@ -11,6 +11,7 @@ import net.wolfertamer.tutorialmod.TutorialMod;
 public class ModItems {
     public static final Item FLAMINGO_FEATHER = registerItem("flamingo_feather", new Item(new Item.Settings()));
     public static final Item FLAMINGO_FABRIC = registerItem("flamingo_fabric", new Item(new Item.Settings()));
+    public static final Item ZIRCON = registerItem("zircon", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -23,6 +24,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(FLAMINGO_FEATHER);
             entries.add(FLAMINGO_FABRIC);
+            entries.add(ZIRCON);
         });
     }
 }
