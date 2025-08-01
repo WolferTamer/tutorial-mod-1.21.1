@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flamingo_fabric": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:flamingo_fabric"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:flamingo_fabric_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flamingo_fabric"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:flamingo_fabric_block"
+    ]
+  }
+}

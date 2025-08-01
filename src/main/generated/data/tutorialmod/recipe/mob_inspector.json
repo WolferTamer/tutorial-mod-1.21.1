@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "Z": {
+      "item": "tutorialmod:zircon"
+    }
+  },
+  "pattern": [
+    " CA",
+    " ZC",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:mob_inspector"
+  }
+}
