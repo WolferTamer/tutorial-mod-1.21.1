@@ -2,7 +2,9 @@ package net.wolfertamer.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.wolfertamer.tutorialmod.block.ModBlocks;
+import net.wolfertamer.tutorialmod.item.ModItemGroups;
 import net.wolfertamer.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +20,9 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.ENCHANTED_TREE_BARK,3200);
 	}
 }

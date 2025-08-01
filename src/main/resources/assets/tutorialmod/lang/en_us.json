@@ -2,6 +2,11 @@
   "item.tutorialmod.flamingo_feather": "Flamingo Feather",
   "item.tutorialmod.flamingo_fabric": "Flamingo Fabric",
   "item.tutorialmod.zircon": "Zircon",
+  "item.tutorialmod.mob_inspector": "Mob Inspector",
+  "item.tutorialmod.pet_food": "Pet Food",
+  "item.tutorialmod.enchanted_tree_bark": "Enchanted Tree Bark",
+
+  "itemgroup.tutorialmod.tutorial_mod": "Tutorial Mod",
 
 
   "block.tutorialmod.zircon_ore": "Zircon Ore",
