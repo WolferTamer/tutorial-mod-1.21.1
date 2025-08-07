@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tutorialmod:block/flamingo_fabric_block_top",
+    "side": "tutorialmod:block/flamingo_fabric_block"
+  }
+}

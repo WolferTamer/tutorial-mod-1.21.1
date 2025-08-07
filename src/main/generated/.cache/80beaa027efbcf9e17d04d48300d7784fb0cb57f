@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-31T21:49:59.9838905	Tutorial Mod/Tags for minecraft:block
+// 1.21.1	2025-08-07T14:20:28.0600138	Tutorial Mod/Tags for minecraft:block
 1516a00b6fcd75f98de6fb601292dbbe16a5f1bd data\minecraft\tags\block\needs_iron_tool.json
-76d193c53dfc0df9ff1393b2f0e7441da5dbbc7e data\minecraft\tags\block\mineable\pickaxe.json
 117634c344148743e0b435c51176d480337a7ae1 data\minecraft\tags\block\mineable\hoe.json
+76d193c53dfc0df9ff1393b2f0e7441da5dbbc7e data\minecraft\tags\block\mineable\pickaxe.json

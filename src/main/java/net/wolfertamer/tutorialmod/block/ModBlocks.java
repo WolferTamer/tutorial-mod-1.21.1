@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -17,7 +18,7 @@ import net.wolfertamer.tutorialmod.TutorialMod;
 public class ModBlocks {
 
     public static final Block FLAMINGO_FABRIC_BLOCK = registerBlock("flamingo_fabric_block",
-            new Block(AbstractBlock.Settings.create().strength(0.75f).sounds(BlockSoundGroup.WOOL)));
+            new PillarBlock(AbstractBlock.Settings.create().strength(0.75f).sounds(BlockSoundGroup.WOOL)));
     public static final Block ZIRCON_ORE = registerBlock("zircon_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)

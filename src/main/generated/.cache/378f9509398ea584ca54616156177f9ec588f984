@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-31T21:49:59.9758972	Tutorial Mod/Block Loot Tables
+// 1.21.1	2025-08-07T14:20:28.058019	Tutorial Mod/Block Loot Tables
 9e644ce22b765bc63f589b66643df0074625a60f data\tutorialmod\loot_table\blocks\zircon_ore.json
-450514fdb89b207ad67cb520ebd7ae17af3902e1 data\tutorialmod\loot_table\blocks\flamingo_fabric_block.json
 52f87afdab11a08c2520ba4a0d7b73bdea8f816e data\tutorialmod\loot_table\blocks\zircon_deepslate_ore.json
+450514fdb89b207ad67cb520ebd7ae17af3902e1 data\tutorialmod\loot_table\blocks\flamingo_fabric_block.json
